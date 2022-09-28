@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1819DCFAE8FE35F18E696ABE /* Pods_money_management_mvvm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAAC6D21977FE7FB4FE60570 /* Pods_money_management_mvvm.framework */; };
+		5AA4DE1028D2123500C3FD34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4DE0F28D2123500C3FD34 /* AppDelegate.swift */; };
+		5AA4DE1228D2123500C3FD34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4DE1128D2123500C3FD34 /* SceneDelegate.swift */; };
+		5AA4DE1928D2123700C3FD34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA4DE1828D2123700C3FD34 /* Assets.xcassets */; };
+		5AA4DE1C28D2123700C3FD34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA4DE1A28D2123700C3FD34 /* LaunchScreen.storyboard */; };
+		5AA4DE2728D212D600C3FD34 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4DE2628D212D600C3FD34 /* LoginScreenViewController.swift */; };
+		5AA4DE2928D212F000C3FD34 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4DE2828D212F000C3FD34 /* SignUpViewController.swift */; };
+		5AA4DE2B28D2130200C3FD34 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4DE2A28D2130200C3FD34 /* AlertViewController.swift */; };
+		5AA4DE2D28D2137400C3FD34 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4DE2C28D2137400C3FD34 /* HomeScreenViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A9BB67420B278DA1F0993C2 /* Pods-money-management-mvvm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-money-management-mvvm.debug.xcconfig"; path = "Target Support Files/Pods-money-management-mvvm/Pods-money-management-mvvm.debug.xcconfig"; sourceTree = "<group>"; };
+		5AA4DE0C28D2123500C3FD34 /* money-management-mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "money-management-mvvm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA4DE0F28D2123500C3FD34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AA4DE1128D2123500C3FD34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5AA4DE1828D2123700C3FD34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AA4DE1B28D2123700C3FD34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AA4DE1D28D2123700C3FD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AA4DE2628D212D600C3FD34 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		5AA4DE2828D212F000C3FD34 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5AA4DE2A28D2130200C3FD34 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		5AA4DE2C28D2137400C3FD34 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		C8D3F41FEFBEEB6ADEB4D1F2 /* Pods-money-management-mvvm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-money-management-mvvm.release.xcconfig"; path = "Target Support Files/Pods-money-management-mvvm/Pods-money-management-mvvm.release.xcconfig"; sourceTree = "<group>"; };
+		EAAC6D21977FE7FB4FE60570 /* Pods_money_management_mvvm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_money_management_mvvm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AA4DE0928D2123500C3FD34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1819DCFAE8FE35F18E696ABE /* Pods_money_management_mvvm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AA4DE0328D2123500C3FD34 = {
+			isa = PBXGroup;
+			children = (
+				5AA4DE0E28D2123500C3FD34 /* money-management-mvvm */,
+				5AA4DE0D28D2123500C3FD34 /* Products */,
+				B899628DB4CD819283BEAAB2 /* Pods */,
+				F3B529D5D8E472E10A2907C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5AA4DE0D28D2123500C3FD34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AA4DE0C28D2123500C3FD34 /* money-management-mvvm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AA4DE0E28D2123500C3FD34 /* money-management-mvvm */ = {
+			isa = PBXGroup;
+			children = (
+				5AC7013228D799D000945107 /* SupportFiles */,
+				5AA4DE2528D2128000C3FD34 /* Model */,
+				5AA4DE2428D2127900C3FD34 /* ViewModel */,
+				5AA4DE2328D2127300C3FD34 /* View */,
+			);
+			path = "money-management-mvvm";
+			sourceTree = "<group>";
+		};
+		5AA4DE2328D2127300C3FD34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5AA4DE2628D212D600C3FD34 /* LoginScreenViewController.swift */,
+				5AA4DE2828D212F000C3FD34 /* SignUpViewController.swift */,
+				5AA4DE2A28D2130200C3FD34 /* AlertViewController.swift */,
+				5AA4DE2C28D2137400C3FD34 /* HomeScreenViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AA4DE2428D2127900C3FD34 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5AA4DE2528D2128000C3FD34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5AC7013228D799D000945107 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5AA4DE0F28D2123500C3FD34 /* AppDelegate.swift */,
+				5AA4DE1128D2123500C3FD34 /* SceneDelegate.swift */,
+				5AA4DE1828D2123700C3FD34 /* Assets.xcassets */,
+				5AA4DE1A28D2123700C3FD34 /* LaunchScreen.storyboard */,
+				5AA4DE1D28D2123700C3FD34 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		B899628DB4CD819283BEAAB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A9BB67420B278DA1F0993C2 /* Pods-money-management-mvvm.debug.xcconfig */,
+				C8D3F41FEFBEEB6ADEB4D1F2 /* Pods-money-management-mvvm.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3B529D5D8E472E10A2907C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAAC6D21977FE7FB4FE60570 /* Pods_money_management_mvvm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AA4DE0B28D2123500C3FD34 /* money-management-mvvm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA4DE2028D2123700C3FD34 /* Build configuration list for PBXNativeTarget "money-management-mvvm" */;
+			buildPhases = (
+				A9F9EB5A014E4BC31A2DAD03 /* [CP] Check Pods Manifest.lock */,
+				5AA4DE0828D2123500C3FD34 /* Sources */,
+				5AA4DE0928D2123500C3FD34 /* Frameworks */,
+				5AA4DE0A28D2123500C3FD34 /* Resources */,
+				00F8A995C3BA36FEBE590CA7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "money-management-mvvm";
+			productName = "money-management-mvvm";
+			productReference = 5AA4DE0C28D2123500C3FD34 /* money-management-mvvm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AA4DE0428D2123500C3FD34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					5AA4DE0B28D2123500C3FD34 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5AA4DE0728D2123500C3FD34 /* Build configuration list for PBXProject "money-management-mvvm" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AA4DE0328D2123500C3FD34;
+			productRefGroup = 5AA4DE0D28D2123500C3FD34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AA4DE0B28D2123500C3FD34 /* money-management-mvvm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AA4DE0A28D2123500C3FD34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA4DE1C28D2123700C3FD34 /* LaunchScreen.storyboard in Resources */,
+				5AA4DE1928D2123700C3FD34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00F8A995C3BA36FEBE590CA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-money-management-mvvm/Pods-money-management-mvvm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-money-management-mvvm/Pods-money-management-mvvm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-money-management-mvvm/Pods-money-management-mvvm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9F9EB5A014E4BC31A2DAD03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-money-management-mvvm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AA4DE0828D2123500C3FD34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA4DE2B28D2130200C3FD34 /* AlertViewController.swift in Sources */,
+				5AA4DE1028D2123500C3FD34 /* AppDelegate.swift in Sources */,
+				5AA4DE2728D212D600C3FD34 /* LoginScreenViewController.swift in Sources */,
+				5AA4DE1228D2123500C3FD34 /* SceneDelegate.swift in Sources */,
+				5AA4DE2928D212F000C3FD34 /* SignUpViewController.swift in Sources */,
+				5AA4DE2D28D2137400C3FD34 /* HomeScreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5AA4DE1A28D2123700C3FD34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AA4DE1B28D2123700C3FD34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AA4DE1E28D2123700C3FD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AA4DE1F28D2123700C3FD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AA4DE2128D2123700C3FD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A9BB67420B278DA1F0993C2 /* Pods-money-management-mvvm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z57SWJSG67;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "money-management-mvvm/SupportFiles/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayse.money-management-mvvm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AA4DE2228D2123700C3FD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D3F41FEFBEEB6ADEB4D1F2 /* Pods-money-management-mvvm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z57SWJSG67;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "money-management-mvvm/SupportFiles/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayse.money-management-mvvm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AA4DE0728D2123500C3FD34 /* Build configuration list for PBXProject "money-management-mvvm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA4DE1E28D2123700C3FD34 /* Debug */,
+				5AA4DE1F28D2123700C3FD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA4DE2028D2123700C3FD34 /* Build configuration list for PBXNativeTarget "money-management-mvvm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA4DE2128D2123700C3FD34 /* Debug */,
+				5AA4DE2228D2123700C3FD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AA4DE0428D2123500C3FD34 /* Project object */;
+}
