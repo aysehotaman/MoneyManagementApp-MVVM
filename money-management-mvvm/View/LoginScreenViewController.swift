@@ -60,7 +60,7 @@ final class LoginScreenViewController: UIViewController {
     
     private let emailTextField: UITextField = {
         let emailTextField = UITextField()
-        emailTextField.placeholder = "Hesap Numarası"
+        emailTextField.placeholder = "Email"
         emailTextField.textAlignment = .center
         emailTextField.borderStyle = .roundedRect
         emailTextField.autocorrectionType = .no
